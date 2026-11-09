@@ -1,0 +1,15 @@
+{
+  "name": "daily-checkin",
+  "version": "1.0.0",
+  "description": "Trae CN / TRAE SOLO CN / WorkBuddy 每日自动签到（本机登录态直签，零依赖，多平台统一）",
+  "main": "checkin.js",
+  "bin": { "daily-checkin": "checkin.js" },
+  "scripts": {
+    "check": "node checkin.js --check",
+    "checkin": "node checkin.js",
+    "status": "node checkin.js --status"
+  },
+  "engines": { "node": ">=16" },
+  "keywords": ["trae", "workbuddy", "checkin", "credits", "automation"],
+  "license": "MIT"
+}
